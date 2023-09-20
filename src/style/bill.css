@@ -1,0 +1,76 @@
+.bill-container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 4px solid rgba(255, 0, 0, 0.698);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffbc;
+  width: 700px;
+  justify-content: center;
+}
+
+input {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-left: 4%;
+  padding-bottom: 0.5rem;
+}
+
+select, option {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-left: 4%;
+  padding-bottom: 0.5rem;
+}
+
+.bill-container .bill {
+  display: flex;
+  flex-direction: column;
+}
+.bill-container .you {
+  display: flex;
+  flex-direction: column;
+}
+.bill-container .pay {
+  padding-top: 2rem;
+  align-self: center;
+}
+.bill-container .no-pay {
+  padding-top: 2rem;
+  align-self: center;
+  color: #c9cfd4;
+}
+
+.reset {
+  display: flex;
+  border-radius: 1rem;
+  border: none;
+  align-self: center;
+  justify-content: center;
+  width: 150px;
+  cursor: crosshair;
+  background-color: #dd793b;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+.reset:hover {
+  background-color: #e98e55;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.351);
+}
+
+.reset:active {
+  transform: translate(0rem, 0.2rem);
+  box-shadow: 0 0.1rem rgba(141, 141, 141, 0.65);
+}
+
+.reset span {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  color: #fff;
+}
